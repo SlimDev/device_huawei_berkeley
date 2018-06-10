@@ -1,0 +1,11 @@
+[
+  {
+    "repository": "SecretIngredients/vendor_huawei_kirin970-common",
+    "target_path": "vendor/huawei/kirin970-common",
+    "branch": "c8.1"
+}, {
+    "repository": "CandyDevices/device_huawei_kirin970-common",
+    "target_path": "device/huawei/kirin970-common",
+    "branch": "c8.1"
+  }
+]
