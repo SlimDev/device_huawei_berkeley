@@ -1,7 +1,0 @@
-[
-  {
-    "repository": "SecretIngredients/vendor_huawei_berkeley",
-    "target_path": "vendor/huawei/berkeley",
-    "branch": "c8.1"
-  }
-]
