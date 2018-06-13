@@ -25,6 +25,11 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml
 
+# Charging
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    charger
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.kirin970.rc \
@@ -46,6 +51,10 @@ PRODUCT_PACKAGES += \
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/fingerprint.kl:system/usr/keylayout/fingerprint.kl
+
+# Kernel Dummy
+PRODUCT_COPY_FILES += \
+    device/huawei/kirin970-common/dummykernel:kernel
 
 # NFC
 PRODUCT_PACKAGES += \
