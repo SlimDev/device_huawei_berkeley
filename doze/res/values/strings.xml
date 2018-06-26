@@ -13,14 +13,18 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Gesture shortcuts -->
-    <string name="screen_gestures_panel_title">Gestures</string>
-    <string name="screen_gestures_panel_summary">Use gestures to perform actions</string>
+    <string name="ambient_display_title">Ambient display</string>
+    <string name="ambient_display_summary">Wake screen when you receive notifications</string>
 
+    <!-- Proximity sensor -->
+    <string name="priximity_sensor_title">Proximity sensor</string>
     <string name="hand_wave_gesture_title">Hand wave</string>
     <string name="hand_wave_gesture_summary">Pulse notifications on hand wave</string>
-
     <string name="pocket_gesture_title">Pocket</string>
     <string name="pocket_gesture_summary">Pulse notifications on removal from pocket</string>
 
+    <!-- [CHAR LIMIT=30] Display settings screen, setting option name to change whether the always-on ambient display feature is enabled. -->
+    <string name="doze_always_on_title">Always on</string>
+    <!-- [CHAR LIMIT=NONE] Display settings screen, setting description for the always-on ambient display feature. -->
+    <string name="doze_always_on_summary">Show time, notification icons, and other info. Increased battery usage.</string>
 </resources>
